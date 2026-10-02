@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Virtual environments
+backend/venv/
+venv/
+.venv/
+
+# Env / secrets
+.env
+backend/.env
+*.env
+
+# Large local data dumps (not for git)
+lean_project_dump.txt
+project_dump.txt
+*.dump
+*.sql.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / misc
+*.log
+.pytest_cache/
+.mypy_cache/
